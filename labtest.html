@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta htestp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="labtest.css"/>
+
+</head>
+<body>
+    <form action="" class="labtestform">
+        <div class="img">
+            <div class="sideimg">
+            <div class="detail">
+                <h2 class="detailhead">1. Your Contact Details</h2>
+                <div class="info">
+                    <input type="text" id="fullName" name="fullName" placeholder="Full Name" required class="inputDetails">
+                    <input type="text" id="patientId" name="patientId" placeholder="Patient Id if exists" required class="inputDetails">
+                    <input type="text" id="contactNumber" name="phNo" placeholder="Contact Number" required class="inputDetails">
+                    <input type="email" id="emailId" name="email" placeholder="Email Id" required class="inputDetails">
+                </div>
+            </div>
+            <div class="detail">
+                <h2 class="detailhead">2. Address</h2>
+                <div class="info">
+                    <input type="text" id="hNo" name="houseNo" placeholder="H-No" required class="inputDetails">
+                    <input type="text" id="street" name="street" placeholder="Street" required class="inputDetails">
+                    <input type="text" id="area" name="area" placeholder="Area" required class="inputDetails">
+                    <p id="districthead">District</p>
+                        <select name="District" id="district" required class="inputDetails">
+                            <option value="">Choose</option>
+                            <option value="Subhash Nagar">Subhash Nagar</option>
+                            <option value="Tagore Garden">Tagore Garden</option>
+                            <option value="Rajouri Garden">Rajouri Garden</option>
+                            <option value="Hari Nagar">Hari Nagar</option>
+
+
+                        </select>
+                </div>
+            </div>
+            <div class="detail">
+                <h2 class="detailhead">3. Test Type</h2>
+                <div class="info">
+                    <p>Check atleast one box without fail.</p>
+                    <p class="checkbox">
+                        <input type="checkbox" id="test1" name="test1" value="CBC">
+                        <label for="test1">CBC</label>
+                    </p>
+
+                    <p class="checkbox">
+                        <input type="checkbox" id="test2" name="test2" value="Complete Urine">
+                    <label for="test2">Complete Urine</label>
+                    </p>
+
+                    <p class="checkbox">
+                        <input type="checkbox" id="test3" name="test3" value="Lipid Profile">
+                        <label for="test3">Lipid Profile</label>
+                    </p>
+
+                    <p class="checkbox">
+                        <input type="checkbox" id="test4" name="test4" value="Thyroid Stimulating Hormone(TSH)">
+                        <label for="test4">Thyroid Stimulating Hormone(TSH)</label>
+                    </p>
+
+                    <p class="checkbox">
+                        <input type="checkbox" id="test5" name="test5" value="Glucose Test">
+                        <label for="test5">Glucose Test</label>
+                    </p>
+                </div>
+            </div>
+            <div class="detail">
+                <h2 class="detailhead">4. Do you want a hard copy?</h2>
+                <div class="info">
+                    <p class="radioBtn">
+                        <input type="radio" id="hardcopy1" name="hardcopy" value="True" required>
+                        <label for="hardcopy1">Yes</label>
+                    </p>
+                    
+                    <p class="radioBtn">
+                        <input type="radio" id="hardcopy2" name="hardcopy" value="False">
+                        <label for="hardcopy2">No</label>
+                    </p>
+                </div>
+            </div>
+            <div class="detail">
+                <h2 class="detailhead">5. Select your comfortable date and time.</h2>
+                <div id="datetime">
+                    <input type="datetime-local" value="currentdatetime" required>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="Images/Lab-Test/lab-test.jpg"/>
+        </div>
+    </div>
+    <div class="submition">
+        <input type="reset" value="Reset" class="action">
+        <input type="submit" value="Submit" class="action">
+    </div>
+</form>
+</body>
+</html>

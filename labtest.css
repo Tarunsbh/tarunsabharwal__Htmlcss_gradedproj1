@@ -1,0 +1,108 @@
+html {
+    height: 100%
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.detail {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.image {
+    width: 50%;
+    display: inline-block;
+}
+
+.image img {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.labtestform {
+    display: flex;
+    width: 70%;
+    height: 620px;
+    flex-direction: column;
+    min-width: 842px;
+}
+
+.sideimg {
+    width: 50%;
+    display: inline-block;
+
+}
+
+
+
+#districthead {
+    font-size: medium;
+    margin-bottom: 3px;
+}
+
+.inputDetails {
+    border-style: none none solid none;
+    width: 45%;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: medium;
+}
+
+.checkbox, .radioBtn {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#datetime{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 12px;
+    border-width: 1px;
+    margin-bottom: 40px;
+}
+
+input[type="currentdatetime" i] {
+    overflow: hidden;
+    padding: 0px;
+    display: inline-flex;
+}
+
+.img {
+    overflow-y: scroll;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 842px;
+    box-shadow: 0px 0px 12px 6px rgba(0,0,0,0.24);
+    height: 620px;
+    display: flex;
+}
+
+.submition {
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.action {
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(175, 102, 243);
+    border-color: rgb(175, 102, 243);
+    border-radius: 5px;
+}
+
+.action:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    background-color: rgb(143, 39, 235);
+}
+
